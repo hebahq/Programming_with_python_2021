@@ -10,6 +10,17 @@
 ##################################################
 
 current_distance_to_object=5
+desired_distance_to_object=3
+
+if current_distance_to_object > desired_distance_to_object:
+    print('Move 3cm forward')
+    print('Faster')
+elif current_distance_to_object < desired_distance_to_object:
+    print('Move 3cm backward')
+    print('Slower')
+elif current_distance_to_object>= desired_distance_to_object:
+    move=(current_distance_to_object-desired_distance_to_object)/2
+    print('move ' + move)
 
 if current_distance_to_object > 10:
     print('Faster')
@@ -17,14 +28,3 @@ elif current_distance_to_object> 5:
     print('Same speed')
 elif 5>= current_distance_to_object >0:
     print('Slower')
-
-########################################
-
-desired_distance_to_object=3
-
-if current_distance_to_object > desired_distance_to_object:
-    print('Forward')
-elif current_distance_to_object < desired_distance_to_object:
-    print('Backward')
-elif current_distance_to_object>= desired_distance_to_object:
-    print('Move half distance')

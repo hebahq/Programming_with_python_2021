@@ -49,8 +49,8 @@ for i in range(11, 20, 3):
 print('................................')
 print('You can also create some shapes: ')
 text = ''
-character = '@'
-for i in range(1, 10):
+character = 'o)/(0_'
+for i in range(1, 11):
     text += character
     print(text)
 
@@ -65,7 +65,7 @@ for i in range(1, 10):
 
 
 # Now combined with conditionals
-reference_number = 3
+reference_number = 5
 text = ' can be divided into '
 print('................................')
 print('This are numbers which can be divided into ' + str(reference_number))
